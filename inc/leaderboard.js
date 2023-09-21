@@ -82,4 +82,4 @@ class Leaderboard {
 }
 
 // Instantiate the class with the path to your JSON data
-const leaderboard = new Leaderboard("../leaderboard/data.json");
+const leaderboard = new Leaderboard("../data.json");
