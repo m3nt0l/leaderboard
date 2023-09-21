@@ -1,0 +1,57 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Smiths",
+      "photo": "img/employee.jpg",
+      "total_tasks": 132
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "photo": "img/employee.jpg",
+      "total_tasks": 137
+    },
+    {
+      "id": 3,
+      "name": "Robert Brown",
+      "photo": "img/employee.jpg",
+      "total_tasks": 123
+    },
+    {
+      "id": 4,
+      "name": "Robert Brown",
+      "photo": "img/employee.jpg",
+      "total_tasks": 123
+    },
+    {
+      "id": 5,
+      "name": "Robert Brown",
+      "photo": "img/employee.jpg",
+      "total_tasks": 123
+    },
+    {
+      "id": 6,
+      "name": "Robert Brown",
+      "photo": "img/employee.jpg",
+      "total_tasks": 123
+    },
+    {
+      "id": 7,
+      "name": "Robert Brown",
+      "photo": "img/employee.jpg",
+      "total_tasks": 123
+    },
+    {
+      "id": 8,
+      "name": "Robert Brown",
+      "photo": "img/employee.jpg",
+      "total_tasks": 123
+    }
+  ],
+  "order_status": {
+    "picking": 132,
+    "packing": 1102,
+    "idle": 1259
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="leaderboard.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="img/koff-logo.svg" a lt="Company Logo" width="150" />
+        <p id="updateTime">Actualizat la ora: <span>1 minut</span></p>
+      </header>
+
+      <div class="rowc">
+        <div class="order-status">
+          <!-- <div class="new"><span id="newOrders">0</span>Comenzi noi</div> -->
+          <div class="statBox picking">
+            <p>In picking:</p>
+            <span class="counter" id="pickingOrders">0</span>
+          </div>
+          <div class="statBox packing">
+            <p>In ambalare:</p>
+            <span class="counter" id="packingOrders">0</span>
+          </div>
+          <div class="statBox total">
+            <p>Total tasks:</p>
+            <span class="counter" id="idleOrders">0</span>
+          </div>
+        </div>
+        <div class="table-container">
+          <table>
+            <colgroup>
+              <col span="1" style="width: 15%" />
+              <col span="1" style="width: 85%" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Utilizator</th>
+                <!-- <th>Total Score</th> -->
+              </tr>
+            </thead>
+            <tbody id="leaderboardTable">
+              <!-- Employees data -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="inc/leaderboard.js"></script>
+  </body>
+</html>
